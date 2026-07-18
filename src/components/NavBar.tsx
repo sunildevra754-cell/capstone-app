@@ -1,10 +1,13 @@
 import Link from "next/link";
 
+import Link from "next/link";
+
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
   { href: "/dashboard", label: "Dashboard" },
   { href: "/health", label: "Health" },
+  { href: "/chat", label: "Chat" },
 ] as const;
 
 export default function NavBar() {
